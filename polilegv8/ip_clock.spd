@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="ip_clock_sim/ip_clock.vho" type="VHDL" />
+ <topLevel name="ip_clock" />
+ <deviceFamily name="cyclonev" />
+</simPackage>
