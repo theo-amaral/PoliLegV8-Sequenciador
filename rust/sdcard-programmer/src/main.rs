@@ -42,7 +42,7 @@ fn main() {
         })
         .collect();
 
-    println!("Numero de notas: {}", notas.len())
+    println!("Numero de notas: {}", notas.len());
     data[0] = ((notas.len() >> 16) & 0xFF) as u8;
     data[1] = (notas.len() & 0xFF) as u8;
     data[2] = ((contagem >> 24) & 0xFF) as u8;
